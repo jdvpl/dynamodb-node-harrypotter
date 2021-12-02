@@ -7,3 +7,4 @@ apirest con node dynamodb aws
 
 ### node paso
 * `npm init`
+* `npm i aws-sdk axios dotenv express nodemon --save`
