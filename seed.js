@@ -16,6 +16,3 @@ const seedData=async()=>{
     }
 
 }
-
-// seedData();
-getCharacters();

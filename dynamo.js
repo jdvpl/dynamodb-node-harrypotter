@@ -15,7 +15,6 @@ const getCharacters= async()=>{
         TableName:TABLE_NAME
     };
     const characters= await dynamoCLient.scan(params).promise();
-    console.log(characters);
     return characters;
 }
 
@@ -29,15 +28,16 @@ const addOrUpdateCharacter= async(character)=>{
 
 }
 // obtener caracter por id
-const getCharacterById=async(id)=>{
-    const params={
-        TableName:TABLE_NAME,
-        Key:{
+const getCharacterById = async (id) => {
+    const params = {
+        TableName: TABLE_NAME,
+        Key: {
             id
-        }
-    }
+        },
+    };
+    console.log(params)
     return await dynamoCLient.get(params).promise();
-}
+};
 
 
 // borrar personaje por id
