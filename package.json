@@ -1,0 +1,19 @@
+{
+  "name": "harrypotter-api",
+  "version": "1.0.0",
+  "description": "api con node y dynamodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdvpl/dynamodb-node-harrypotter.git"
+  },
+  "author": "jdvpl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdvpl/dynamodb-node-harrypotter/issues"
+  },
+  "homepage": "https://github.com/jdvpl/dynamodb-node-harrypotter#readme"
+}
